@@ -2,16 +2,6 @@
 // Assignment 6
 
 // PayrollSystemTest.cs
-// 
-// This code modifies the payroll system given in the textbook (pg 450) by including a new class Date to represent
-// employee birthdays. Date is incorporated into the classes by simply adding a new private instance variable
-// of type Date (birthDate) and a public BirthDate property. To display a birthdate on the console, Employee's
-// ToString() method was edited. Finally, all constructors within the hierarchy were also changed
-// to include month, day, and year variables so that Date objects can be created for each type of employee. 
-//
-// This assignment showed that object-oriented programming and polymorphism aids class extensibility and simplifies
-// programming. The major edits only needed to be made in the abstract base class, with only the constructors in 
-// the other classes needing changes. 
 
 using System;
 using System.Collections.Generic;
